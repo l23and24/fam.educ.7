@@ -21,21 +21,20 @@
             margin-bottom: 2rem;
         }
 
-        .pdf-container {
-            width: 100%;
-            height: 500px;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
-            background: #f1f5f9;
-            margin-top: 1rem;
+        .link-container {
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 12px;
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border: 1px dashed #cbd5e1;
         }
 
         .iframe-container {
             width: 100%;
-            height: 400px;
+            height: 450px;
             border-radius: 8px;
             border: 1px solid #e2e8f0;
             overflow: hidden;
@@ -75,10 +74,11 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
                 Індивідуальний навчальний план
             </h2>
-            <div class="pdf-container">
-                <object data="inp.pdf" type="application/pdf" width="100%" height="100%">
-                    <p>Ваш браузер не підтримує перегляд PDF. <a href="inp.pdf" class="text-blue-500 underline">Завантажити файл</a>.</p>
-                </object>
+            <div class="link-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#34A853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                <a href="https://drive.google.com/file/d/17BBXMXqkyIT8ErYYNIDYdD-mQV8Q2hn5/view?usp=sharing" target="_blank" class="text-blue-600 hover:underline font-medium break-all text-sm md:text-base">
+                    Відкрити навчальний план на Google Drive
+                </a>
             </div>
         </section>
 
@@ -91,8 +91,11 @@
 
             <div class="mb-8">
                 <span class="badge bg-blue-100 text-blue-700">Група результатів 1 (ГР1)</span>
-                <div class="pdf-container">
-                    <embed src="gr1.pdf" type="application/pdf" width="100%" height="100%">
+                <div class="link-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EA4335" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    <a href="https://drive.google.com/file/d/1rv3SkPKRiJ9Iqgoz3mPJGrQI-UVYGYRR/view?usp=sharing" target="_blank" class="text-blue-600 hover:underline font-medium break-all text-sm md:text-base">
+                        Посилання на матеріали ГР1 (Google Drive)
+                    </a>
                 </div>
             </div>
 
@@ -134,13 +137,6 @@
                     <h3 class="text-lg font-semibold text-slate-700">Задача 29.7</h3>
                     <div class="iframe-container">
                         <iframe src="https://l23and24.github.io/textbook-7_exercises/29.7.html" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-semibold text-slate-700">Задача 31.6</h3>
-                    <div class="iframe-container">
-                        <iframe src="https://l23and24.github.io/textbook-7_exercises/31.6.html" width="100%" height="100%" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
